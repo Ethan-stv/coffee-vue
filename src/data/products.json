@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "ARABICA BEKELE",
+    "price": 44.0,
+    "image": "/product-1.svg",
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "name": "ROBUSTA SANTA",
+    "price": 35.0,
+    "image": "/product-2.svg",
+    "inStock": true
+  },
+  {
+    "id": 3,
+    "name": "FRENCH ROAST",
+    "price": 37.00,
+    "image": "/product_3.svg",
+    "inStock": true
+  },
+  {
+    "id": 4,
+    "name": "DECAF FRENCH ROAST",
+    "price": 45.00,
+    "image": "/product_4.svg",
+    "inStock": false
+  }
+]
