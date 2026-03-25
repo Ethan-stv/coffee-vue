@@ -3,7 +3,7 @@
     <FreeShipping />
     <Header />
     <Hero />
-    <UnderHero/>
+    <UnderHero />
   </header>
 </template>
 
@@ -18,7 +18,7 @@ export default {
     FreeShipping,
     Header,
     Hero,
-    UnderHero
+    UnderHero,
   },
 };
 </script>

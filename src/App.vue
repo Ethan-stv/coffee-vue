@@ -1,19 +1,19 @@
 <template>
   <HeaderPage />
   <InfoPage />
-  <Assortment />
+  <ShopPage />
 </template>
 
 <script>
 import HeaderPage from "./components/main/headerPage.vue";
 import InfoPage from "./components/main/infoPage.vue";
-import Assortment from "./components/shop-section/assortment.vue";
+import ShopPage from "./components/main/shopPage.vue";
 
 export default {
   components: {
     HeaderPage,
     InfoPage,
-    Assortment
+    ShopPage,
   },
 };
 </script>
