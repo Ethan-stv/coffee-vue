@@ -24,14 +24,22 @@
           <p>Sat-Sun.........8.30am-4.00pm</p>
         </span>
         <span>
-          <button>CONTACT US</button>
+          <BlackButton>CONTACT US</BlackButton>
         </span>
       </div>
     </div>
   </div>
 </template>
 
-<script></script>
+<script>
+import BlackButton from '@/ui/black-button.vue';
+
+export default {
+  components: {
+    BlackButton
+  },
+};
+</script>
 
 <style scoped>
 .mainDiv {
@@ -98,18 +106,5 @@ h3 {
 .span2 p {
   font-family: "Space Mono", monospace;
   font-size: 14px;
-}
-button {
-  display: inline;
-  background-color: #1d1d1b;
-  padding: 15px;
-  color: white;
-  font-family: "Space Mono", monospace;
-  border: 0px;
-  cursor: pointer;
-  background-image: url("../../assets/images/vector.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 </style>

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "UMA CLARK",
+    "role": "Manager",
+    "image": "/person1.svg"
+  },
+  {
+    "id": 2,
+    "name": "TOM SPLINDER",
+    "role": "Manager",
+    "image": "/person2.svg"
+  },
+  {
+    "id": 3,
+    "name": "JONAS HANKS",
+    "role": "Pastry Chef",
+    "image": "/person3.svg"
+  },
+  {
+    "id": 4,
+    "name": "LAURA SIMONS",
+    "role": "Media manager",
+    "image": "/person4.svg"
+  },
+  {
+    "id": 5,
+    "name": "ED MORRIS",
+    "role": "Chef",
+    "image": "/person5.svg"
+  },
+  {
+    "id": 6,
+    "name": "RITA FLAMS",
+    "role": "Sales person",
+    "image": "/person6.svg"
+  }
+]

@@ -12,35 +12,59 @@
 
     <div class="secondDiv">
       <span>
-        <h3>DELIVERY</h3>
-        <p>
-          Vivamus hendrerit at sapien<br />
-          nec mattis. Quisque quis arcu
-        </p>
+        <div class="spanDiv1">
+          <h3>DELIVERY</h3>
+          <p>
+            Vivamus hendrerit at sapien<br />
+            nec mattis. Quisque quis arcu
+          </p>
+        </div>
+        <div class="spanDiv2">
+          <p>View More</p>
+          <img src="../../assets/images/right_arrow.svg" alt="" width="20px" />
+        </div>
       </span>
 
       <span>
-        <h3>WHOLESALE</h3>
-        <p>
-          Pellentesque in tempor lorem,<br />
-          vel porttitor est.
-        </p>
+        <div class="spanDiv1">
+          <h3>WHOLESALE</h3>
+          <p>
+            Pellentesque in tempor lorem,<br />
+            vel porttitor est.
+          </p>
+        </div>
+        <div class="spanDiv2">
+          <p>View More</p>
+          <img src="../../assets/images/right_arrow.svg" alt="" width="20px" />
+        </div>
       </span>
 
       <span>
-        <h3>CONSISTENCY</h3>
-        <p>
-          Aliquam ut arcu sodales,<br />
-          gravida quam vitae.
-        </p>
+        <div class="spanDiv1">
+          <h3>CONSISTENCY</h3>
+          <p>
+            Aliquam ut arcu sodales,<br />
+            gravida quam vitae.
+          </p>
+        </div>
+        <div class="spanDiv2">
+          <p>View More</p>
+          <img src="../../assets/images/right_arrow.svg" alt="" width="20px" />
+        </div>
       </span>
 
       <span>
-        <h3>QUALITY</h3>
-        <p>
-          Nam at sapien ligula.<br />
-          Morbi maximus scelerisque mi sed.
-        </p>
+        <div class="spanDiv1">
+          <h3>QUALITY</h3>
+          <p>
+            Nam at sapien ligula.<br />
+            Morbi maximus scelerisque mi sed.
+          </p>
+        </div>
+        <div class="spanDiv2">
+          <p>View More</p>
+          <img src="../../assets/images/right_arrow.svg" alt="" width="20px" />
+        </div>
       </span>
     </div>
   </div>
@@ -86,12 +110,27 @@
 .secondDiv span {
   flex: 1;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   gap: 20px;
   padding-top: 20px;
   padding-left: 30px;
+  padding-right: 30px;
   border-top: 1px black solid;
+}
+.spanDiv1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.spanDiv2 {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+.spanDiv2 img {
+  cursor: pointer;
 }
 
 .secondDiv span:first-child {
